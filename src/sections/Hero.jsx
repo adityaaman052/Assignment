@@ -1,10 +1,18 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
-
 import AnimatedCounter from "../components/AnimatedCounter";
 import Button from "../components/Button";
-import { words } from "../constants";
 import HeroExperience from "../components/models/hero_models/HeroExperience";
+
+// New automation categories to cycle through
+const categories = [
+  { text: "Post Interaction", imgPath: "/images/icons/interaction.svg" },
+  { text: "Lead Magnet Downloads", imgPath: "/images/icons/download.svg" },
+  { text: "Webinar Attendees", imgPath: "/images/icons/webinar.svg" },
+  { text: "Demo Bookings", imgPath: "/images/icons/calendar.svg" },
+  { text: "Website Visitors", imgPath: "/images/icons/visitor.svg" },
+  { text: "Newsletter Subscribers", imgPath: "/images/icons/newsletter.svg" }
+];
 
 const Hero = () => {
   useGSAP(() => {
@@ -27,36 +35,35 @@ const Hero = () => {
           <div className="flex flex-col gap-7">
             <div className="hero-text">
               <h1>
-                Shaping
+                Intent-Based
                 <span className="slide">
                   <span className="wrapper">
-                    {words.map((word, index) => (
+                    {categories.map((category, index) => (
                       <span
                         key={index}
                         className="flex items-center md:gap-3 gap-1 pb-2"
                       >
                         <img
-                          src={word.imgPath}
-                          alt="person"
+                          src={category.imgPath}
+                          alt={category.text}
                           className="xl:size-12 md:size-10 size-7 md:p-2 p-1 rounded-full bg-white-50"
                         />
-                        <span>{word.text}</span>
+                        <span>{category.text}</span>
                       </span>
                     ))}
                   </span>
                 </span>
               </h1>
-              <h1>into Real Projects</h1>
-              <h1>that Deliver Results</h1>
+              <h1>LinkedIn Automations</h1>
+              <h1>that Drive Results</h1>
             </div>
 
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Hi, I’m Adrian, a developer based in Croatia with a passion for
-              code.
+              Convert your LinkedIn profile into a powerful lead generation machine with our intelligent automation tools.
             </p>
 
             <Button
-              text="See My Work"
+              text="Start Using Reactin"
               className="md:w-80 md:h-16 w-60 h-12"
               id="counter"
             />

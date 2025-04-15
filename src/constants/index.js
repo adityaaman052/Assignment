@@ -29,10 +29,10 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 15, suffix: "+", label: "Years of Experience" },
-  { value: 200, suffix: "+", label: "Satisfied Clients" },
-  { value: 108, suffix: "+", label: "Completed Projects" },
-  { value: 90, suffix: "%", label: "Client Retention Rate" },
+  { value: 15, suffix: "+", label: "Campaigns Launched" },
+  { value: 200, suffix: "+", label: "Qualified Leads Generated" },
+  { value: 108, suffix: "+", label: "Demos Booked" },
+  { value: 90, suffix: "%", label: "Open & Reply Rate" },
 ];
 
 const logoIconsList = [
@@ -74,20 +74,21 @@ const logoIconsList = [
 const abilities = [
   {
     imgPath: "/images/seo.png",
-    title: "Quality Focus",
-    desc: "Delivering high-quality results while maintaining attention to every detail.",
+    title: "Precision Crafting",
+    desc: "Every detail matters — I ensure pixel-perfect results that align with your brand vision.",
   },
   {
     imgPath: "/images/chat.png",
-    title: "Reliable Communication",
-    desc: "Keeping you updated at every step to ensure transparency and clarity.",
+    title: "Seamless Collaboration",
+    desc: "Expect fast replies, clear updates, and a smooth workflow from idea to deployment.",
   },
   {
     imgPath: "/images/time.png",
-    title: "On-Time Delivery",
-    desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+    title: "Deadline Driven",
+    desc: "Timely delivery without sacrificing quality — always aligned with your project timeline.",
   },
 ];
+
 
 const techStackImgs = [
   {
@@ -147,42 +148,43 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+    review: "Reactin began with a simple goal — automate meaningful conversations on LinkedIn. What started as a side project is now a full-fledged tool helping businesses connect authentically at scale.",
     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+    title: "The Origin Story",
+    date: "2023 - Early 2024",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Identified gaps in manual LinkedIn outreach and crafted the initial version of the automation flow.",
+      "Built the first MVP with single-sender capability, campaign scheduling, and custom message templates.",
+      "Validated the product with early-stage B2B users and startup founders.",
     ],
   },
   {
-    review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+    review: "With growing demand, Reactin expanded to support multi-sender campaigns — empowering teams to scale outreach without being flagged by LinkedIn’s algorithm.",
     imgPath: "/images/exp2.png",
     logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    title: "Scaling Outreach",
+    date: "Mid 2024",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Launched Multi-Sender Support, enabling multiple LinkedIn accounts to operate under a single campaign.",
+      "Introduced audience segmentation filters like job title, company size, and follower count.",
+      "Enhanced personalization with dynamic fields and response-based follow-up triggers.",
     ],
   },
   {
-    review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+    review: "Reactin is now more than a tool — it's an ecosystem for intent-based automation. From lead magnets to demo bookings, it adapts to every conversion moment.",
     imgPath: "/images/exp3.png",
     logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
+    title: "Today & Beyond",
+    date: "Late 2024 - 2025",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Integrated event-based triggers: downloaded resource, attended webinar, booked demo, or visited website.",
+      "Built an affiliate system, in-app analytics, and a learning hub for outreach training.",
+      "On track to release AI-powered messaging suggestions and deeper CRM integrations.",
     ],
   },
 ];
+
 
 const expLogos = [
   {
@@ -201,48 +203,49 @@ const expLogos = [
 
 const testimonials = [
   {
-    name: "Esther Howard",
-    mentions: "@estherhoward",
+    name: "ScaleMate CRM",
+    mentions: "@scalematecrm",
     review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
+      "Reactin helped us reduce cold outreach time by 60%. The intent-based automations ensure we're only connecting with people who’ve shown genuine interest — game changer for our team.",
     imgPath: "/images/client1.png",
   },
   {
-    name: "Wade Warren",
-    mentions: "@wadewarren",
+    name: "Lynx Talent",
+    mentions: "@lynxtalent",
     review:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
-    imgPath: "/images/client3.png",
-  },
-  {
-    name: "Guy Hawkins",
-    mentions: "@guyhawkins",
-    review:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "We used Reactin to automate follow-ups after our webinar. The post-event campaigns doubled our demo bookings without any manual effort. Smooth integration and simple UI!",
     imgPath: "/images/client2.png",
   },
   {
-    name: "Marvin McKinney",
-    mentions: "@marvinmckinney",
+    name: "Founders Junction",
+    mentions: "@foundersjunction",
     review:
-      "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
-    imgPath: "/images/client5.png",
+      "Reactin’s multi-sender campaigns allowed our entire team to stay under LinkedIn’s radar while scaling outreach. The smart triggers and personalization make it feel human.",
+    imgPath: "/images/client3.png",
   },
   {
-    name: "Floyd Miles",
-    mentions: "@floydmiles",
+    name: "Clarity AI",
+    mentions: "@clarityai",
     review:
-      "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
+      "The lead magnet automation is genius. As soon as someone downloads our resource, Reactin starts a meaningful conversation. It’s like having a 24/7 SDR that never sleeps.",
     imgPath: "/images/client4.png",
   },
   {
-    name: "Albert Flores",
-    mentions: "@albertflores",
+    name: "Launchwise",
+    mentions: "@launchwisehq",
     review:
-      "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
+      "Reactin gave us visibility into what works. The built-in analytics and A/B testing tools helped us fine-tune our messages for max engagement. Totally worth it.",
+    imgPath: "/images/client5.png",
+  },
+  {
+    name: "Wavestack",
+    mentions: "@wavestack",
+    review:
+      "From post engagement to lead nurturing, Reactin handles the entire journey. It’s not just automation, it’s relationship-building at scale.",
     imgPath: "/images/client6.png",
   },
 ];
+
 
 const socialImgs = [
   {

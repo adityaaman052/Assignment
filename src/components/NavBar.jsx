@@ -1,6 +1,12 @@
 import { useState, useEffect } from "react";
 
-import { navLinks } from "../constants";
+// Updated navLinks to match the Reactin website navigation
+const navLinks = [
+  { link: "#pricing", name: "Pricing" },
+  { link: "#faq", name: "FAQ" },
+  { link: "#affiliates", name: "Affiliates 30%" },
+  { link: "#blog", name: "Blog" },
+];
 
 const NavBar = () => {
   // track if the user has scrolled down the page
@@ -26,7 +32,7 @@ const NavBar = () => {
     <header className={`navbar ${scrolled ? "scrolled" : "not-scrolled"}`}>
       <div className="inner">
         <a href="#hero" className="logo">
-          Adrian JSM
+          Reactin
         </a>
 
         <nav className="desktop">
@@ -42,14 +48,14 @@ const NavBar = () => {
           </ul>
         </nav>
 
-        <a href="#contact" className="contact-btn group">
+        <a href="#signup" className="contact-btn group">
           <div className="inner">
-            <span>Contact me</span>
+            <span>Start Using Reactin</span>
           </div>
         </a>
       </div>
     </header>
   );
-}
+};
 
 export default NavBar;
