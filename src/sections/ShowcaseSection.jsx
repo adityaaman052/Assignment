@@ -49,14 +49,20 @@ const AppShowcase = () => {
         <div className="showcaselayout">
           <div ref={smartListsRef} className="first-project-wrapper">
             <div className="image-wrapper">
-              <img src="/images/project1.png" alt="SmartLists Dashboard" />
+              <video 
+                src="/videos/reactin_demo.mp4" 
+                autoPlay 
+                loop 
+                muted
+                className="w-full h-auto object-cover"
+              />
             </div>
             <div className="text-content">
               <h2>
-                Find Leads Continuously Without Technical Expertise
+                Automate Your LinkedIn Outreach Without Limits
               </h2>
               <p className="text-white-50 md:text-xl">
-                Set up SmartLists that automatically add prospects whenever triggers are activated in platforms like Stripe, Calendly, or Tally.io.
+                Create powerful automation workflows that connect with your ideal prospects using personalized messages. Scale your outreach efforts without sacrificing quality.
               </p>
             </div>
           </div>
@@ -65,18 +71,18 @@ const AppShowcase = () => {
             <div className="project" ref={profileEnrichmentRef}>
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
-                  src="/images/project2.png"
-                  alt="Auto-Enrich Contacts Feature"
+                  src="/images/demo1.jpeg"
+                  alt="LinkedIn Profile Enrichment"
                 />
               </div>
-              <h2>Get Precise And Up-to-date Profiles Automatically</h2>
+              <h2>Access Rich Data Profiles With Complete Contact Info</h2>
             </div>
 
             <div className="project" ref={targetingRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/project3.png" alt="Advanced Segmentation Interface" />
+                <img src="/images/demo3.jpeg" alt="Targeted Messaging Interface" />
               </div>
-              <h2>Send Targeted Messages Only To The Right People</h2>
+              <h2>Segment Your Audience For Maximum Engagement</h2>
             </div>
           </div>
         </div>

@@ -6,12 +6,12 @@ import HeroExperience from "../components/models/hero_models/HeroExperience";
 
 // New automation categories to cycle through
 const categories = [
-  { text: "Post Interaction", imgPath: "/images/icons/interaction.svg" },
-  { text: "Lead Magnet Downloads", imgPath: "/images/icons/download.svg" },
-  { text: "Webinar Attendees", imgPath: "/images/icons/webinar.svg" },
-  { text: "Demo Bookings", imgPath: "/images/icons/calendar.svg" },
-  { text: "Website Visitors", imgPath: "/images/icons/visitor.svg" },
-  { text: "Newsletter Subscribers", imgPath: "/images/icons/newsletter.svg" }
+  { text: "Post Interaction", imgPath: "/images/ideas.svg" },
+  { text: "Lead Magnet Downloads", imgPath: "/images/concepts.svg" },
+  { text: "Webinar Attendees", imgPath: "/images/designs.svg" },
+  { text: "Demo Bookings", imgPath: "/images/concepts.svg" },
+  { text: "Website Visitors", imgPath: "/images/code.svg" },
+  { text: "Newsletter Subscribers", imgPath: "/images/ideas.svg" }
 ];
 
 const Hero = () => {

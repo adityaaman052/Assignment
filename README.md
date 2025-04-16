@@ -1,142 +1,85 @@
-<div align="center">
-  <br />
-    <a href="https://www.youtube.com/watch?v=E-fdPfRxkzQ" target="_blank">
-      <img src="public/images/readme.png" alt="Project Banner">
-    </a>
-  <br />
+# ReactIn - LinkedIn Automation Platform
 
-  <div>
-    <img src="https://img.shields.io/badge/-Three.js-black?style=for-the-badge&logo=three.js&logoColor=white" />
-    <img src="https://img.shields.io/badge/-GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-  </div>
+![ReactIn Logo](https://reactin.com/images/logo.png)
 
-  <h3 align="center">Interactive 3D Portfolio Website</h3>
+## About ReactIn
 
-   <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
-    </div>
-</div>
+ReactIn is a powerful LinkedIn automation platform designed to help businesses, sales teams, and marketers streamline their LinkedIn outreach and lead generation efforts. Our solution provides intelligent automation tools that maintain the personal touch essential for successful networking and business development on LinkedIn.
 
-## 📋 <a name="table">Table of Contents</a>
+## Key Features
 
-1. 🤖 [Introduction](#introduction)
-2. ⚙️ [Tech Stack](#tech-stack)
-3. 🔋 [Features](#features)
-4. 🤸 [Quick Start](#quick-start)
-5. 🔗 [Assets & Snippets](#links)
-6. 🚀 [More](#more)
+### 🚀 SmartLists
+Create dynamic prospect lists that automatically populate based on triggers from your existing tools like Stripe, Calendly, or Tally.io. No technical expertise required.
 
-## ⚠️ Tutorial
+### 🔍 Profile Enrichment
+Automatically enrich contact profiles with accurate, up-to-date information, ensuring you always have the most complete data for your outreach campaigns.
 
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>.
+### 🎯 Advanced Targeting
+Send personalized messages only to the right people with sophisticated segmentation capabilities, improving response rates and engagement.
 
-If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
+### ⚙️ Workflow Automation
+Design custom workflows that nurture relationships at scale while maintaining a personal touch that resonates with your prospects.
 
-<a href="https://www.youtube.com/watch?v=E-fdPfRxkzQ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
+### 📊 Performance Analytics
+Track the success of your campaigns with comprehensive analytics and reporting tools, helping you optimize your approach for better results.
 
-## <a name="introduction">🤖 Introduction</a>
+## Getting Started
 
-The 3D Portfolio project is a highly engaging personal website that features animated 3D scenes, smooth camera transitions, interactive model showcases, and responsive design. It’s ideal for developers, designers, or freelancers looking to stand out in the digital crowd.
+1. **Sign Up**: Visit [reactin.com](https://reactin.com) and create your account
+2. **Connect**: Link your LinkedIn profile to the platform
+3. **Create**: Build your first SmartList or import existing contacts
+4. **Automate**: Design your outreach workflow with personalized messaging
+5. **Analyze**: Monitor performance and refine your approach
 
-If you're getting started and need assistance or face any bugs, join our active Discord community with over **50k+** members. It's a place where people help each other out.
+## Use Cases
 
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
+- **Sales Teams**: Generate qualified leads and nurture prospects through the sales pipeline
+- **Recruiters**: Connect with potential candidates and maintain relationships with talent pools
+- **Business Development**: Identify partnership opportunities and cultivate business relationships
+- **Marketers**: Expand reach and promote content to targeted LinkedIn audiences
+- **Entrepreneurs**: Build professional networks and discover new business opportunities
 
-## <a name="tech-stack">⚙️ Tech Stack</a>
+## Security & Compliance
 
-- Three.js
-- React Three Fiber
-- Drei
-- GSAP
-- Tailwind CSS
-- Vite
-- React 19
+ReactIn is committed to maintaining the highest standards of security and compliance with LinkedIn's terms of service. Our platform is designed to operate within LinkedIn's guidelines while maximizing your outreach effectiveness.
 
-## <a name="features">🔋 Features</a>
+## Pricing
 
-### Features of the 3D Portfolio Project
+We offer flexible pricing plans to accommodate businesses of all sizes:
 
-👉 Animated 3D models and reveal animations
+- **Starter**: Perfect for individuals and small teams
+- **Professional**: Ideal for growing businesses with larger outreach needs
+- **Enterprise**: Custom solutions for organizations with advanced requirements
 
-👉 Realistic lighting and shadows
+Visit our [Pricing Page](https://reactin.com/pricing) for detailed information.
 
-👉 GSAP-powered scroll interactions
+## Affiliate Program
 
-👉 Responsive design with Tailwind CSS and Flexbox/Grid
+Join our affiliate program and earn 30% commission on referrals. Visit the [Affiliates](https://reactin.com/affiliates) page to learn more.
 
-👉 Micro Interactions
+## Support
 
-👉 Multi-section layout (About, Projects, Contact)
+Need help? Our team is ready to assist:
 
-👉 Mobile optimized 3D experience
+- **Documentation**: [docs.reactin.com](https://docs.reactin.com)
+- **FAQ**: [reactin.com/faq](https://reactin.com/faq)
+- **SalesTech Support**: [reactin.com/salestech](https://reactin.com/salestech)
+- **Contact**: [reactin.com/contact](https://reactin.com/contact)
 
-and many more, including code architecture and reusability.
+## Connect With Us
 
-## <a name="quick-start">🤸 Quick Start</a>
+Follow ReactIn on social media for the latest updates, tips, and best practices:
 
-Follow these steps to set up the project locally on your machine.
+- [LinkedIn](https://linkedin.com/company/reactin)
+- [Twitter](https://twitter.com/reactinapp)
+- [Facebook](https://facebook.com/reactinapp)
+- [YouTube](https://youtube.com/c/reactin)
 
-**Prerequisites**
+## Legal
 
-Make sure you have the following installed on your machine:
+- [Privacy Policy](https://reactin.com/privacy)
+- [Terms of Use](https://reactin.com/terms)
 
-- [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
+---
 
-**Cloning the Repository**
-
-```bash
-git clone https://github.com/adrianhajdin/3d-portfolio.git
-cd 3d-portfolio
-```
-
-**Installation**
-
-Install the project dependencies using npm:
-
-```bash
-npm install
-```
-
-**Set Up Environment Variables**
-
-Create a new file named `.env` in the root of your project and add the following content:
-
-```env
-VITE_APP_EMAILJS_SERVICE_ID=
-VITE_APP_EMAILJS_TEMPLATE_ID=
-VITE_APP_EMAILJS_PUBLIC_KEY=
-```
-
-Replace the placeholder values with your actual **[EmailJS](https://www.emailjs.com/)** credentials.
-
-**Running the Project**
-
-```bash
-npm run dev
-```
-
-Open [http://localhost:5173](http://localhost:5173/) in your browser to view the project.
-
-
-## <a name="links">🔗 Assets and Snippets</a>
-
-Assets and snippets used in the project can be found in the **[video kit](https://jsm.dev/pfolio25-kit)**.
-
-<a href="https://jsm.dev/pfolio25-kit" target="_blank">
-  <img src="public/images/readme-video-kit.png" alt="Video Kit Banner">
-</a>
-
-
-## <a name="more">🚀 More</a>
-
-**Advance your skills with JSM Pro Courses**
-
-Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning adventure. They're packed with
-detailed explanations, cool features, and exercises to boost your skills. Give it a go!
-
-<a href="https://beta.jsmastery.pro/" target="_blank">
-  <img src="public/images/readme-bottom.png" alt="Project Banner">
-</a>
+© ReactIn 2025. All rights reserved.
